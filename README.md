@@ -1,6 +1,6 @@
 ## Atom Dict
 
-Atomdict implements a data structure for multi lua state.
+Atomdict implements a data structure for multi lua states.
 
 You can use it in multi-threads , create one lua state per thread. Atomdict will help you exchange a group data atomic between lua states.
 
@@ -15,7 +15,7 @@ In data server :
   -- Send handle (A integer) to other lua state in other thread
 ```
 
-In data client :
+In data client:
 
 ```Lua
   local ad = require "atomdict"
